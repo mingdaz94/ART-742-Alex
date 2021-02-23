@@ -10,32 +10,17 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" media="screen" href="http://fontlibrary.org/face/chomsky" type="text/css"/>
+    <script type="text/javascript" src="processing.js"></script>
 
 </head>
-<script>
-    function startTime() {
-      var today = new Date();
-      var h = today.getHours();
-      var m = today.getMinutes();
-      var s = today.getSeconds();
-      m = checkTime(m);
-      s = checkTime(s);
-      document.getElementById('txt').innerHTML =
-      h + ":" + m + ":" + s;
-      var t = setTimeout(startTime, 500);
-    }
-    function checkTime(i) {
-      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-      return i;
-    }
-    </script>
-    
+
 <body style="background-color: rgb(255, 255, 0) ;">
     <div class="container">
         <div class="item1">
             <h1><a href="../index.html">The Stair Times</a></h1>
         </div>
     </div>
-
+    <canvas data-processing-sources="sketch_1.pde"></canvas>
 </body>
+
 </html>
