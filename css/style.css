@@ -6,7 +6,7 @@
 
 html, body {
     background-color: white;
-    font-family: 'ChomskyRegular', sans-serif;
+    font-family: 'ChomskyRegular';
     -webkit-font-smoothing: antialiased;
     margin: 0;
 }
