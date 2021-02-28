@@ -7,7 +7,7 @@ function initMap() {
     zoom: 8,
     center: YaleArchitecture,
   });
-  // The marker, positioned at Uluru
+  // The marker, positioned at YaleArchitecture
   const marker = new google.maps.Marker({
     position: YaleArchitecture,
     map: map,
