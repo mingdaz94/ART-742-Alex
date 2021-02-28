@@ -57,6 +57,12 @@ h1 {
     margin: 0;
 }
 
+/* Set the size of the div element that contains the map */
+#map {
+    height: 100%;
+    width: 100%;
+  }
+
 /* Mobile
 -------------------------------------------------- */
 
