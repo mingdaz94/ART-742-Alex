@@ -23,19 +23,44 @@
         </div>
     </div>
  
-    <h3>My Google Maps Demo</h3>
-    <!--The div element for the map -->
-    <div id="map"></div>
-
-
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="316b3554753a503df54f904c-text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-    <script type="316b3554753a503df54f904c-text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+    <style type="text/css">
+        /* Set the size of the div element that contains the map */
+        #map {
+          height: 400px;
+          /* The height is 400 pixels */
+          width: 100%;
+          /* The width is the width of the web page */
+        }
+      </style>
+      <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          const uluru = { lat: -25.344, lng: 131.036 };
+          // The map, centered at Uluru
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: uluru,
+          });
+          // The marker, positioned at Uluru
+          const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+          });
+        }
+      </script>
+    </head>
+    <body>
+      <h3>My Google Maps Demo</h3>
+      <!--The div element for the map -->
+      <div id="map"></div>
   
-    <script type="316b3554753a503df54f904c-text/javascript" src="/static/js/navigation.fa7464fb875d.js"></script>
-    <script type="316b3554753a503df54f904c-text/javascript" src="/static/js/init.729b7b1aa0f0.js"></script>
-    <script asynch defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKWbphP_YOGlo71eRSZH-Gijub_YEMAXo&v=3&callback=init" type="316b3554753a503df54f904c-text/javascript"></script>
-    <script asynch defer src='https://www.google.com/recaptcha/api.js' type="316b3554753a503df54f904c-text/javascript"></script>
-    
+      <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+        async
+      ></script>
+      
     <canvas data-processing-sources="sketch_1.pde"></canvas>
 </body>
 </html>
