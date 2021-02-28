@@ -4,7 +4,7 @@ function initMap() {
   const YaleArchitecture= { lat: 41.3087, lng: -72.9318 };
   // The map, centered at Uluru
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 8,
+    zoom: 15,
     center: YaleArchitecture,
     mapId: '8b94098eeda56d34'
   });
