@@ -1,8 +1,9 @@
-// Initialize and add the map
+let map;
+
 function initMap() {
-  // The location of YaleArchitecture
+
   const YaleArchitecture= { lat: 41.3087, lng: -72.9318 };
-  // The map, centered at Uluru
+
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 15,
     zoomControl: false,
@@ -13,14 +14,17 @@ function initMap() {
     center: YaleArchitecture,
     mapId: '697a8f85be227c39'
   });
+  const iconBase =
+    "https://developers.google.com/maps/documentation/javascript/examples/full/images/";
+    var marker = new google.maps.Marker({
+      position: YaleArchitecture,
+      map: map,
+      icon: iconBase + 'img/stair_yellow.png'
+    });
   // The marker, positioned at YaleArchitecture
   const marker = new google.maps.Marker({
     position: YaleArchitecture,
     map: map,
-    markerOptions: {
-      icon:
-        "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-      },
   });
 
   const drawingManager = new google.maps.drawing.DrawingManager({
