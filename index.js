@@ -19,9 +19,16 @@ function initMap() {
   });
   
   // The marker, positioned at YaleArchitecture
-  const features = [
-    {position: new google.maps.LatLng(41.3086, -72.9329)},
-    {position: new google.maps.LatLng(41.3087, -72.9318)},
+  const iconBase =
+  "https://developers.google.com/maps/documentation/javascript/examples/full/images/";
+const icons = {
+  stair: {
+    icon: iconBase + "favicon-16x16.png",
+  },
+};
+const features = [
+    {position: new google.maps.LatLng(41.3086, -72.9329), type: "stair",},
+    {position: new google.maps.LatLng(41.3087, -72.9318), type: "stair",},
   ];
 }
 
@@ -32,4 +39,3 @@ function initMap() {
     });
     map.panTo(latLng);
   }
-  
