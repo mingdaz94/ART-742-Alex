@@ -27,8 +27,14 @@ function initMap() {
     },
   };
   const features = [
-    {position: new google.maps.LatLng(41.3086, -72.9329), type: "stair",},
-    {position: new google.maps.LatLng(41.3087, -72.9318), type: "stair",},
+    {
+      position: new google.maps.LatLng(41.3086, -72.9329), 
+      type: "stair",
+    },
+    {
+      position: new google.maps.LatLng(41.3087, -72.9318), 
+      type: "stair",
+    },
     ];
 
   // Create markers.
