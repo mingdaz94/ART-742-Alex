@@ -20,7 +20,7 @@ function initMap() {
   });
 
   const image =
-    "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
+    "https://freight.cargo.site/t/original/i/3dee9b7f13872c4d12e6fb8459f24cb65cfd02b41fa6c1224e6e8cf2333a8be2/favicon-32x32.png";
   const beachMarker = new google.maps.Marker({
     position: { lat: 41.3087, lng: -72.9318 },
     map,
