@@ -19,11 +19,10 @@ function initMap() {
   });
   
   // The marker, positioned at YaleArchitecture
-  const marker = new google.maps.Marker({
-    position: { lat: 41.3087, lng: -72.9318 },
-    position: { lat: 41.3086, lng: -72.9329 },
-    map: map,
-  });
+  const features = [
+    {position: new google.maps.LatLng(41.3086, -72.9329)},
+    {position: new google.maps.LatLng(41.3087, -72.9318)},
+  ];
 }
 
   function placeMarkerAndPanTo(latLng, map) {
