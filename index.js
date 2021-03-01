@@ -18,6 +18,10 @@ function initMap() {
     placeMarkerAndPanTo(e.latLng, map);
   });
   
+  new google.maps.Marker({
+    position: { lat: 41.3087, lng: -72.9318 },
+    map,
+  });
 
   const iconBase =
   "https://developers.google.com/maps/documentation/javascript/examples/full/images/";
@@ -27,15 +31,6 @@ function initMap() {
     },
   };
 
-  const features = [
-    {
-      position: new google.maps.LatLng(41.3086, -72.9329),
-    },
-    {
-      position: new google.maps.LatLng(41.3087, -72.9318), 
-    },
-    ];
-
   // Create markers.
   for (let i = 0; i < features.length; i++) {
     const marker = new google.maps.Marker({
@@ -43,7 +38,7 @@ function initMap() {
       icon: icons[features[i].type].icon,
       map: map,
     });
-    
+
   // randomly click map to create locations
   function placeMarkerAndPanTo(latLng, map) {
     new google.maps.Marker({
