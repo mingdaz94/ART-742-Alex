@@ -16,4 +16,20 @@ function initMap() {
     position: YaleArchitecture,
     map: map,
   });
+
+  const drawingManager = new google.maps.drawing.DrawingManager({
+    drawingMode: google.maps.drawing.OverlayType.MARKER,
+    drawingControl: true,
+    drawingControlOptions: {
+      position: google.maps.ControlPosition.TOP_CENTER,
+      drawingModes: [
+        google.maps.drawing.OverlayType.MARKER,
+      ],
+    },
+    markerOptions: {
+      icon:
+        "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
+    },
+  });
+  drawingManager.setMap(map);
 }
