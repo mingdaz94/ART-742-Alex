@@ -1,9 +1,7 @@
 let map;
 
 function initMap() {
-  // The location of YaleArchitecture
-  const YaleArchitecture= { lat: 41.3087, lng: -72.9318 };
-  // The map, centered at Uluru
+
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 15,
     zoomControl: false,
@@ -11,17 +9,19 @@ function initMap() {
     mapTypeControl: false,
     fullscreenControl: false,
     zoomControl: false,
-    center: YaleArchitecture,
+    center: { lat: 41.3087, lng: -72.9318 },
     mapId: '697a8f85be227c39'
   });
-
+  
+  // randomly click map to create locations
   map.addListener("click", (e) => {
     placeMarkerAndPanTo(e.latLng, map);
   });
   
   // The marker, positioned at YaleArchitecture
   const marker = new google.maps.Marker({
-    position: YaleArchitecture,
+    position: { lat: 41.3087, lng: -72.9318 },
+    position: { lat: 41.3086, lng: -72.9329 },
     map: map,
   });
 }
