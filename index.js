@@ -6,7 +6,11 @@ function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 15,
     center: YaleArchitecture,
-    mapId: '8b94098eeda56d34'
+    mapId: '697a8f85be227c39'
+    fullscreenControl: false,
+    zoomControl: false,
+    mapTypeControl: false,
+    streetViewControl: false
   });
   // The marker, positioned at YaleArchitecture
   const marker = new google.maps.Marker({
