@@ -17,11 +17,13 @@ function initMap() {
   map.addListener("click", (e) => {
     placeMarkerAndPanTo(e.latLng, map);
   });
+
   const image =
     "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
   const beachMarker = new google.maps.Marker({
     position: { lat: 41.3087, lng: -72.9318 },
     map,
+    icon: image,
   });
 
 
