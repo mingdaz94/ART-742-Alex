@@ -17,6 +17,10 @@ function initMap() {
   const marker = new google.maps.Marker({
     position: YaleArchitecture,
     map: map,
+    markerOptions: {
+      icon:
+        "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
+      },
   });
 
   const drawingManager = new google.maps.drawing.DrawingManager({
