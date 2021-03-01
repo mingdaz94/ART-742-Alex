@@ -21,7 +21,7 @@ function initMap() {
 
   const image =
     "https://d2w9rnfcy7mm78.cloudfront.net/10972416/original_d942326bd3edfa781d6373c84b5b8075.png?1614581393?bc=0";
-  const beachMarker = new google.maps.Marker({
+  const Marker = new google.maps.Marker({
     position: { lat: 41.3087, lng: -72.9318 },
     map,
     icon: image,
