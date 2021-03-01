@@ -17,19 +17,13 @@ function initMap() {
   map.addListener("click", (e) => {
     placeMarkerAndPanTo(e.latLng, map);
   });
-  
-  new google.maps.Marker({
+  const image =
+    "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
+  const beachMarker = new google.maps.Marker({
     position: { lat: 41.3087, lng: -72.9318 },
     map,
   });
 
-  const iconBase =
-  "https://developers.google.com/maps/documentation/javascript/examples/full/images/";
-  const icons = {
-  stair: {
-    icon: iconBase + "favicon-16x16.png",
-    },
-  };
 
   // Create markers.
   for (let i = 0; i < features.length; i++) {
