@@ -26,15 +26,6 @@ function initMap() {
     icon: image,
   });
 
-
-  // Create markers.
-  for (let i = 0; i < features.length; i++) {
-    const marker = new google.maps.Marker({
-      position: features[i].position,
-      icon: icons[features[i].type].icon,
-      map: map,
-    });
-
   // randomly click map to create locations
   function placeMarkerAndPanTo(latLng, map) {
     new google.maps.Marker({
@@ -43,5 +34,4 @@ function initMap() {
     });
     map.panTo(latLng);
   }
-}
 }
