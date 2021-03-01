@@ -13,6 +13,7 @@ function initMap() {
     mapId: '697a8f85be227c39'
   });
   
+  
   // randomly click map to create locations
   map.addListener("click", (e) => {
     placeMarkerAndPanTo(e.latLng, map);
