@@ -14,25 +14,23 @@ function initMap() {
     center: YaleArchitecture,
     mapId: '697a8f85be227c39'
   });
+
+  map.addListener("click", (e) => {
+    placeMarkerAndPanTo(e.latLng, map);
+  });
+  
   // The marker, positioned at YaleArchitecture
   const marker = new google.maps.Marker({
     position: YaleArchitecture,
     map: map,
   });
-
-  const drawingManager = new google.maps.drawing.DrawingManager({
-    drawingMode: google.maps.drawing.OverlayType.MARKER,
-    drawingControl: true,
-    drawingControlOptions: {
-      position: google.maps.ControlPosition.TOP_CENTER,
-      drawingModes: [
-        google.maps.drawing.OverlayType.MARKER,
-      ],
-    },
-    markerOptions: {
-      icon:
-        "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-    },
-  });
-  drawingManager.setMap(map);
 }
+
+  function placeMarkerAndPanTo(latLng, map) {
+    new google.maps.Marker({
+      position: latLng,
+      map: map,
+    });
+    map.panTo(latLng);
+  }
+  
