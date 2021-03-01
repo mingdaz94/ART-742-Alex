@@ -19,7 +19,7 @@ function initMap() {
   });
 
   const image =
-    "https://photos.google.com/album/AF1QipNayV-2hLYML_WJFQ6pNCk02mKK___OUsuc_Lz7/photo/AF1QipM8rLzs43t0LCKnGP4LuMDG550fc52Me6gv71aTtps://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
+    "https://pasteboard.co/JQynw1z.png";
   const beachMarker = new google.maps.Marker({
     position: { lat: 41.3087, lng: -72.9318 },
     map,
