@@ -3,17 +3,12 @@
 *:after {
   box-sizing: border-box;
 }
-/* Set the size of the div element that contains the map */
-#map {
-    height: 100%;
-}
 
 html, body {
     background-color: white;
     font-family: 'ChomskyRegular';
     -webkit-font-smoothing: antialiased;
     margin: 0;
-    height: 100%;
 }
 
 /* LINK STYLING */
@@ -62,6 +57,11 @@ h1 {
     margin: 0;
 }
 
+/* Set the size of the div element that contains the map */
+#map {
+    height: 650px;
+    width: 100%;
+}
 
 /* Mobile
 -------------------------------------------------- */
