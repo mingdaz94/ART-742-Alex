@@ -21,7 +21,7 @@ a:hover {
     text-decoration: underline;
 }
 
-p,h2,li {
+p,li {
     font-family: 'helvetica neue', sans-serif;
     font-style: normal;
     font-size: 1.5em;
@@ -37,6 +37,15 @@ h1 {
     margin: 0px;
     text-align: center;
 }
+
+h2 {
+    font-family: 'ChomskyRegular';
+    font-style: normal;
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0px;
+}
+
 
 .container {
     height: 100vh;
