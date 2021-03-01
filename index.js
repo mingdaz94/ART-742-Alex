@@ -31,15 +31,13 @@ function initMap() {
     {position: new google.maps.LatLng(41.3087, -72.9318), type: "stair",},
     ];
 
-
-      // Create markers.
- for (let i = 0; i < features.length; i++) {
+  // Create markers.
+  for (let i = 0; i < features.length; i++) {
     const marker = new google.maps.Marker({
       position: features[i].position,
       icon: icons[features[i].type].icon,
       map: map,
     });
-  }
 
   function placeMarkerAndPanTo(latLng, map) {
     new google.maps.Marker({
@@ -48,4 +46,5 @@ function initMap() {
     });
     map.panTo(latLng);
   }
+}
 }
