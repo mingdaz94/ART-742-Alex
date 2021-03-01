@@ -9,7 +9,7 @@ function initMap() {
     scaleControl: false,
     mapTypeControl: false,
     fullscreenControl: false,
-    zoomControl: true,
+    zoomControl: false,
     center: YaleArchitecture,
     mapId: '697a8f85be227c39'
   });
