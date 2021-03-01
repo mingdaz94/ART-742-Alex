@@ -6,7 +6,6 @@
 
 html, body {
     background-color: white;
-    font-family: 'ChomskyRegular';
     -webkit-font-smoothing: antialiased;
     margin: 0;
 }
@@ -22,7 +21,8 @@ a:hover {
     text-decoration: underline;
 }
 
-p,h1,h2,li {
+p,h2,li {
+    font-family: 'helvetica neue', sans-serif;
     font-style: normal;
     font-size: 2em;
     font-weight: normal;
@@ -30,6 +30,11 @@ p,h1,h2,li {
 }
 
 h1 {
+    font-family: 'ChomskyRegular';
+    font-style: normal;
+    font-size: 2em;
+    font-weight: normal;
+    margin: 0px;
     text-align: center;
 }
 
