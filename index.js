@@ -31,6 +31,7 @@ function initMap() {
     new google.maps.Marker({
       position: latLng,
       map: map,
+      icon: image,
     });
     map.panTo(latLng);
   }
