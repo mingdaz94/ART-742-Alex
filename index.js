@@ -14,13 +14,7 @@ function initMap() {
     center: YaleArchitecture,
     mapId: '697a8f85be227c39'
   });
-  const iconBase =
-    "https://developers.google.com/maps/documentation/javascript/examples/full/images/";
-    var marker = new google.maps.Marker({
-      position: YaleArchitecture,
-      map: map,
-      icon: iconBase + 'img/stair_yellow.png'
-    });
+  
   // The marker, positioned at YaleArchitecture
   const marker = new google.maps.Marker({
     position: YaleArchitecture,
