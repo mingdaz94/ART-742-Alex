@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>The Stair Times / Map</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="ROBOTS" content="INDEX,FOLLOW">
+    <meta name="description" content="This is the online syllabus for the Yale Spring 21 course On Gathering by Mindy Seu">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="https://d2w9rnfcy7mm78.cloudfront.net/10972416/original_d942326bd3edfa781d6373c84b5b8075.png?1614581393?bc=0" type="image/x-icon">
+    <link rel="icon" href="https://d2w9rnfcy7mm78.cloudfront.net/10972416/original_d942326bd3edfa781d6373c84b5b8075.png?1614581393?bc=0" type="image/x-icon">
+    <link rel="stylesheet" media="screen" href="http://fontlibrary.org/face/chomsky" type="text/css"/>
+    <script type="text/javascript" src="p5.js"></script>
+    <script type="text/javascript" src="map.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script>
+        function startTime() {
+          var today = new Date();
+          var h = today.getHours();
+          var m = today.getMinutes(); 
+          var s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =
+          h + ":" + m + ":" + s;
+          var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+          return i;
+        }
+        </script>
+</head>
+
+<body style="background-color: rgb(255, 255, 0);" onload="startTime();"></body>
+    <div class="container">
+        <div class="item1">
+            <h1><a href="../index.html">The Stair Times</a></h1>
+        <div id="txt"></div>
+        <div id="map"></div>
+    </div>
+
+      <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBv4auub8ZtrKZgP9EKogShPq3CeSeMsk&map_ids=697a8f85be227c39&callback=initMap">
+      </script>
+
+<!-- 加入drawing library，可以随意插小旗子 
+    <div class="container">
+      <div class="item3">
+        <form action="uploadStair.php" method="post" enctype="multipart/form-data">
+          <input type="file" name="file" id="file"><br>
+          <input type="submit" name="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    -->
+
+<!-- 加入drawing library，可以随意插小旗子 
+      <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBv4auub8ZtrKZgP9EKogShPq3CeSeMsk&libraries=drawing&callback=initMap">
+      </script>
+    -->
+
+</body>
+</html>
