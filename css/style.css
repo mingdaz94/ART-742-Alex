@@ -38,10 +38,18 @@ h2 {
     margin: 0px;
 }
 
-p,li {
+p {
     font-family: 'helvetica neue', sans-serif;
     font-style: normal;
     font-size: 1.5em;
+    font-weight: normal;
+    margin: 0px;
+}
+
+li {
+    font-family: 'helvetica neue', sans-serif;
+    font-style: normal;
+    font-size: 0.5em;
     font-weight: normal;
     margin: 0px;
 }
