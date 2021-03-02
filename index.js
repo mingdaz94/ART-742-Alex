@@ -36,4 +36,27 @@ function initMap() {
     });
     map.panTo(latLng);
   }
+
+
+  const contentString =
+    '<div id="content">' +
+    '<div id="siteNotice">' +
+    "</div>" +
+    '<div id="bodyContent">' +
+    "<p>This is Yale School of Architecture</p>" +
+    "</div>" +
+    "</div>";
+    const infowindow = new google.maps.InfoWindow({
+      content: contentString,
+      maxWidth: 200,
+    });
+    const marker = new google.maps.Marker({
+      position: { lat: 41.3087, lng: -72.9318 },
+      map,
+      icon: image,
+      title: "Yale School of Architecture",
+    });
+    marker.addListener("click", () => {
+      infowindow.open(map, marker);
+    });
 }
