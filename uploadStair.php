@@ -22,7 +22,7 @@ if ($file["error"] == 0) {
    // 最终会有一个布尔返回值
    $bol = move_uploaded_file($file["tmp_name"], $imgname);
    if($bol){
-    echo "上传成功！";
+    echo "Success!";
    } else {
     echo "上传失败！";
    };
