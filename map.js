@@ -49,7 +49,6 @@ function initMap() {
       position: { lat: 41.3087, lng: -72.9318 },
       map,
       icon: image,
-      animation: google.maps.Animation.DROP,
       title: "Yale School of Architecture",
     });
     marker.addListener("click", () => {
