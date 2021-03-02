@@ -43,7 +43,7 @@ function initMap() {
     '<div id="siteNotice">' +
     "</div>" +
     '<div id="bodyContent">' +
-    "<p>This is Yale School of Architecture</p>" +
+    "<p1>This is Yale School of Architecture </p1>" +
     "</div>" +
     "</div>";
     const infowindow = new google.maps.InfoWindow({
