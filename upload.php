@@ -19,7 +19,7 @@ if (isset($_POST['submit'])){
                 $fileNameNew = uniqid('', true).".".$fileActualExt;
                 $fileDestination = 'uploads/' .$fileNameNew;
                 move_uploaded_file($fileTmpName, $fileDestination);
-                header("Location: upload.php?uploadsuccess")
+                header("Location: upload.php?uploadsuccess");
 
 
             } else {
@@ -34,3 +34,5 @@ if (isset($_POST['submit'])){
     }
 
 }
+
+
