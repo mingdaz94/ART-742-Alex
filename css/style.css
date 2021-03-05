@@ -104,14 +104,14 @@ li {
     text-align: left;
     padding: 25px;
   }
-
+  
 .footer2 {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(255, 255, 255);
-    color: yellow;
+    background-color: yellow;
+    color: black;
     text-align: left;
     padding: 25px;
   }
