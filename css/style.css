@@ -116,7 +116,18 @@ li {
     padding: 25px;
   }
   
-
+.button {
+  background-color: yellow;
+  border: yes;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 /* Mobile
 -------------------------------------------------- */
