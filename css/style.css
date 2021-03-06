@@ -142,6 +142,27 @@ input#fileToUpload + label{
     justify-content: center;
 }  
 
+div {display: inline-block;}
+.hours {
+  font-size: 20px;
+  font-family: 'helvetica neue', sans-serif;
+  color: black;
+}
+.minutes {
+  font-size: 20px;
+  font-family: 'helvetica neue', sans-serif;
+  color: black;
+}
+
+.seconds {
+  font-size: 20px;
+  font-family: 'helvetica neue', sans-serif;
+  color: black;
+}
+
+
+
+
 /*.botton::-webkit-file-upload-button {
     visibility: hidden;
   }
