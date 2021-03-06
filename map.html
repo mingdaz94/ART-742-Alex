@@ -8,6 +8,8 @@
     <meta name="description" content="This is the online syllabus for the Yale Spring 21 course On Gathering by Mindy Seu">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="shortcut icon" href="https://d2w9rnfcy7mm78.cloudfront.net/10972416/original_d942326bd3edfa781d6373c84b5b8075.png?1614581393?bc=0" type="image/x-icon">
     <link rel="icon" href="https://d2w9rnfcy7mm78.cloudfront.net/10972416/original_d942326bd3edfa781d6373c84b5b8075.png?1614581393?bc=0" type="image/x-icon">
     <link rel="stylesheet" media="screen" href="http://fontlibrary.org/face/chomsky" type="text/css"/>
@@ -42,10 +44,15 @@
     </div>
     
     <div class="footer2">
-      <form action="uploads.php" method="post" enctype="multipart/form-data">
-        <input class="button" type="file" name="file" value="Select" id="fileToUpload"/>
-        <button class="button" type="submit" name="submit">+</button>
-      </form>
+     <form action="uploads.php">
+        <input type="file" id="fileToUpload" name="filename">
+        <label for="fileToUpload">
+          <span class="material-icons md-48">
+            add_circle_outline
+          </span>
+        </label>
+     </form>  
+        <!-- <button class="button" type="submit" name="submit">+</button>-->
     </div>
 
       <script
