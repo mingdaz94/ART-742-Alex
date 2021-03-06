@@ -24,8 +24,8 @@
           var s = today.getSeconds();
           m = checkTime(m);
           s = checkTime(s);
-          document.getElementById('txt').innerHTML =
-          h + ":" + m + ":" + s;
+          document.getElementById('clock').innerHTML =
+          '<div class="hours">' + h + '</div>' + ":" + '<div class="minutes">' + m + '</div>' + ":" + '<div class="seconds">' + s + '</div>';
           var t = setTimeout(startTime, 500);
         }
         function checkTime(i) {
@@ -39,7 +39,7 @@
     <div class="container">
         <div class="item1">
             <h1><a href="../index.html">The Stair Times</a></h1>
-        <div id="txt"></div>
+        <div id="clock"></div>
         <div id="map"></div>
     </div>
     
