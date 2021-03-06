@@ -11,6 +11,10 @@ html, body {
 }
 
 /* LINK STYLING */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
 
 a {
     text-decoration: none;
@@ -118,34 +122,55 @@ li {
     padding: 25px;
   }
 
-.botton::-webkit-file-upload-button {
+input#fileToUpload{
+    display: none;
+}
+input#fileToUpload + label{
+    color: black;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    position: absolute;
+    background-color: yellow;
+    border: 0px solid black;
+    border-radius: 0px;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 700;
+    font-size: 50pt;
+    justify-content: center;
+}  
+
+/*.botton::-webkit-file-upload-button {
     visibility: hidden;
   }
 .button {
   position: absolute;
   /*width: 20px;
-  height: 20px;*/
+  height: 20px;
   background-color: yellow;
   border: 5px solid black;
   border-radius: 0px;
   color: black;
-  padding: 10px 20px;
+  padding: 5px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 4px 4px;
+  margin: 0px;
   cursor: pointer;
   font-weight: 700;
-  font-size: 35pt;
+  font-size: 50pt;
   font-family: 'helvetica neue', sans-serif;
   text-transform: uppercase;
+  justify-content: center;
 }
 .botton:hover::before {
     border-color: black;
   }
 .botton:active::before {
     background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
-  }
+  }*/
+
+
 /* Mobile
 -------------------------------------------------- */
 
