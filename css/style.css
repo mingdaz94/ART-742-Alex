@@ -76,13 +76,22 @@ li {
     align-items: stretch;
 }
 
-.header {
+.header-map {
     padding: 0px 0px 25px 0px;
     text-align: center;
     background: yellow;
     color: black;
     font-family: 'ChomskyRegular';
     font-size: 18px;
+}
+
+.header {
+  padding: 0px 0px 25px 0px;
+  text-align: center;
+  background: white;
+  color: black;
+  font-family: 'ChomskyRegular';
+  font-size: 18px;
 }
 
 .item1 {
