@@ -148,17 +148,19 @@ div {display: inline-block;}
 .hours {
   font-size: 20px;
   font-family: 'helvetica neue', sans-serif;
+  font-weight: 600;
   color: black;
 }
 .minutes {
   font-size: 20px;
   font-family: 'helvetica neue', sans-serif;
+  font-weight: 600;
   color: black;
 }
-
 .seconds {
   font-size: 20px;
   font-family: 'helvetica neue', sans-serif;
+  font-weight: 600;
   color: black;
 }
 
