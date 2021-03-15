@@ -1,3 +1,5 @@
+let map;
+
 var map;
 var InforObj = [];
 var centerCords = {
@@ -90,6 +92,13 @@ var centerCords = {
                  map = new google.maps.Map(document.getElementById('map'), {
                      zoom: 15,
                      center: centerCords,
+                     zoom: 10,
+                     zoomControl: false,
+                     scaleControl: false,
+                     mapTypeControl: false,
+                     fullscreenControl: false,
+                     zoomControl: false,
+                     mapId: '697a8f85be227c39',
                  });
                  addMarker();
              }
