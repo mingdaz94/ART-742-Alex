@@ -6,54 +6,33 @@ var centerCords = {
                  lng: -72.9318
              };
              var markersOnMap = [{
-                     placeName: "I had lunch with Alex on the stair last summer",
-                     LatLng: [{
-                         lat: 41.3087,
-                         lng: -72.9318
-                     }]
+                  placeName: "I had lunch with Alex on the stair last summer",
+                  LatLng: [{lat: 41.3087, lng: -72.9318}]
                  },
                  {
-                     placeName: "I sat on the stair and waited for my girlfriend to come out of the gallery",
-                     LatLng: [{
-                         lat: 41.308242,
-                         lng: -72.930887
-                     }]
+                  placeName: "I sat on the stair and waited for my girlfriend to come out of the gallery",
+                  LatLng: [{lat: 41.308242, lng: -72.930887}]
                  },
                  {
-                     placeName: "Australia (Canberra)",
-                     LatLng: [{
-                         lat: 41.307378,
-                         lng: -72.928732
-                     }]
+                  placeName: "Australia (Canberra)",
+                  LatLng: [{lat: 41.307378, lng: -72.928732}]
                  },
                  {
-                     placeName: "Enjoying the sunlight on this stair",
-                     LatLng: [{
-                         lat: 41.308078,
-                         lng: -72.930481
-                     }]
+                  placeName: "Enjoying the sunlight on this stair",
+                  LatLng: [{lat: 41.308078, lng: -72.930481}]
                  },
                  {
-                     placeName: "Wondering who will use this stair",
-                     LatLng: [{
-                         lat: 41.305399,
-                         lng:  -72.928680
-                     }]
+                  placeName: "Wondering who will use this stair",
+                  LatLng: [{lat: 41.305399, lng:  -72.928680}]
                  },
                  {
                   placeName: "My roomate Mark fell down on this stair on July 19 2020",
-                  LatLng: [{
-                      lat: 41.305399,
-                      lng:  -72.928680
-                  }]
+                  LatLng: [{lat: 41.305399, lng:  -72.928680}]
                  },
                  {
                   placeName: "I saw a man sat on stair and somked with a sad face",
-                  LatLng: [{
-                      lat: 41.306658,
-                      lng: -72.931093
-                  }]
-                  }
+                  LatLng: [{lat: 41.306658, lng: -72.931093}]
+                 }
              ];
      
              window.onload = function () {
