@@ -131,18 +131,18 @@ li {
   background: yellow !important;
   overflow: hidden !important;
   margin-bottom: 10px !important;
-  margin-right: 5px !important;
+  margin-right: 10px !important;
 }
 
 .gm-ui-hover-effect {
   border-radius: 0%  !important;
   border: 0px solid yellow !important;
-  background: yellow !important;
+  background: transparent !important;
   opacity: 1;
 }
 
 .gm-sytle-iw-t::after {
-  background: white !important;
+  background: yellow !important;
 }
 
 .footer {
