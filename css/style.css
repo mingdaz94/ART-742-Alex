@@ -115,6 +115,35 @@ li {
     width: 100%;
 }
 
+#infoContent {
+  background-color: yellow;
+}
+
+.gm-style-iw {
+  border-radius: 0%  !important;
+  border: 1px solid yellow;
+  background: yellow !important;
+}
+
+.gm-style-iw-d {
+  border-radius: 0%  !important;
+  border: 1px solid yellow !important;
+  background: yellow
+}
+
+.gm-ui-hover-effect {
+  border-radius: 0%  !important;
+  border: 1px solid yellow !important;
+  background: yellow !important;
+}
+
+.gm-sytle-iw-t::after {
+  border: 1px solid yellow;
+  background: yellow !important;
+}
+
+
+
 .footer {
     position: fixed;
     left: 0;
