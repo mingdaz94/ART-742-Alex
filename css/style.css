@@ -116,32 +116,33 @@ li {
 }
 
 #infoContent {
-  background-color: yellow;
+  background-color: yellow !important;
 }
 
 .gm-style-iw {
   border-radius: 0%  !important;
-  border: 1px solid yellow;
+  border: 0px solid yellow;
   background: yellow !important;
 }
 
 .gm-style-iw-d {
   border-radius: 0%  !important;
-  border: 1px solid yellow !important;
-  background: yellow
+  border: 0px solid yellow !important;
+  background: yellow !important;
+  overflow: hidden !important;
+  margin-bottom: 10px !important;
 }
 
 .gm-ui-hover-effect {
   border-radius: 0%  !important;
-  border: 1px solid yellow !important;
+  border: 0px solid yellow !important;
   background: yellow !important;
 }
 
 .gm-sytle-iw-t::after {
-  border: 1px solid yellow;
+  border: 0px solid yellow;
   background: yellow !important;
 }
-
 
 
 .footer {
