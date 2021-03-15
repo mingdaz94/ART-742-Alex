@@ -6,14 +6,14 @@ var centerCords = {
                  lng: -72.9318
              };
              var markersOnMap = [{
-                     placeName: "I had lunch with Brandon on the stair ",
+                     placeName: "I had lunch with Alex on the stair last summer",
                      LatLng: [{
                          lat: 41.3087,
                          lng: -72.9318
                      }]
                  },
                  {
-                     placeName: "Australia (Melbourne)",
+                     placeName: "I sat on the stair and waited for my girlfriend to come out of the gallery",
                      LatLng: [{
                          lat: 41.308242,
                          lng: -72.930887
