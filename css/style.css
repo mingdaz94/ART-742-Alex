@@ -131,6 +131,7 @@ li {
   background: yellow !important;
   overflow: hidden !important;
   margin-bottom: 10px !important;
+  margin-right: 5px !important;
 }
 
 .gm-ui-hover-effect {
