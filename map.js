@@ -1,8 +1,8 @@
 let map;
 
-var map;
-var InforObj = [];
-var centerCords = {
+             var map;
+             var InforObj = [];
+             var centerCords = {
                  lat: 41.3087,
                  lng: -72.9318
              };
