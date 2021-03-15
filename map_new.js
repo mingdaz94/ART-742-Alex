@@ -34,12 +34,19 @@ var centerCords = {
                      }]
                  },
                  {
-                     placeName: "Australia (Perth)",
+                     placeName: "Wondering who will use this stair",
                      LatLng: [{
-                         lat: -31.951994,
-                         lng: 475.858081
+                         lat: 41.305399,
+                         lng:  -72.928680
                      }]
-                 }
+                 },
+                 {
+                  placeName: "I saw a man sat on stair and somked with a sad face",
+                  LatLng: [{
+                      lat: 41.306658,
+                      lng: -72.931093
+                  }]
+              }
              ];
      
              window.onload = function () {
