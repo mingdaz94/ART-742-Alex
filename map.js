@@ -1,4 +1,4 @@
-let map;
+             let map;
 
              var map;
              var InforObj = [];
@@ -7,7 +7,7 @@ let map;
                  lng: -72.9318
              };
              var markersOnMap = [{
-                     placeName: "Australia (Uluru)",
+                     placeName: "I had lunch with Brandon yesterday on the stair of RDH",
                      LatLng: [{
                          lat: 41.3087,
                          lng: -72.9318
@@ -55,8 +55,7 @@ let map;
 
    
                  for (var i = 0; i < markersOnMap.length; i++) {
-                     var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
-                         '</h1><p>Lorem ipsum dolor sit amet, vix mutat posse suscipit id, vel ea tantas omittam detraxit.</p></div>';
+                     var contentString = '<div id="content"><p1>' + markersOnMap[i].placeName + '</p1></div>';
      
                      const marker = new google.maps.Marker({
                          position: markersOnMap[i].LatLng[0],
@@ -104,7 +103,7 @@ let map;
              }
     
     
-  // randomly click map to create locations
+        // randomly click map to create locations
   // map.addListener("click", (e) => {
   //   placeMarkerAndPanTo(e.latLng, map);
   // });
