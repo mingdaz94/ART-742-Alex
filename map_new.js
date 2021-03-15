@@ -54,8 +54,8 @@ var centerCords = {
 
    
                  for (var i = 0; i < markersOnMap.length; i++) {
-                     var contentString = '<div id="content"><p2>' + markersOnMap[i].placeName +
-                         '</p2></div>';
+                     var contentString = '<div id="content"><p1>' + markersOnMap[i].placeName +
+                         '</p1></div>';
      
                      const marker = new google.maps.Marker({
                          position: markersOnMap[i].LatLng[0],
