@@ -137,13 +137,12 @@ li {
   border-radius: 0%  !important;
   border: 0px solid yellow !important;
   background: yellow !important;
+  opacity: 1;
 }
 
 .gm-sytle-iw-t::after {
-  border: 0px solid yellow;
-  background: yellow !important;
+  background: white !important;
 }
-
 
 .footer {
     position: fixed;
