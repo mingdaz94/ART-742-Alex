@@ -91,7 +91,6 @@ var centerCords = {
                  map = new google.maps.Map(document.getElementById('map'), {
                   zoom: 15,
                   center: centerCords,
-                  zoom: 10,
                   zoomControl: false,
                   scaleControl: false,
                   mapTypeControl: false,
