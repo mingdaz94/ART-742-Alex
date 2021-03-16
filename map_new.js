@@ -49,6 +49,21 @@ var centerCords = {
                  {LatLng: [{lat: 41.319563, lng: -72.926153}]},
                  {LatLng: [{lat: 41.320401, lng: -72.926083}]},
                  {LatLng: [{lat: 41.320607, lng: -72.928242}]},
+
+                 {LatLng: [{lat: 41.309365, lng: -72.936952}]},
+                 {LatLng: [{lat: 41.309007, lng: -72.937151}]},
+                 {LatLng: [{lat: 41.308688, lng: -72.937434}]},
+                 {LatLng: [{lat: 41.308068, lng: -72.938317}]},
+                 {LatLng: [{lat: 41.310127, lng: -72.936486}]},
+                 {LatLng: [{lat: 41.310599, lng: -72.936468}]},
+                 {LatLng: [{lat: 41.310945, lng: -72.935927}]},
+                 {LatLng: [{lat: 41.311033, lng: -72.935197}]},
+                 {LatLng: [{lat: 41.311891, lng: -72.935508}]},
+                 {LatLng: [{lat: 41.312997, lng: -72.934715}]},
+                 {LatLng: [{lat: 41.313013, lng: -72.936937}]},
+                 {LatLng: [{lat: 41.308685, lng: -72.938722}]},
+                 {LatLng: [{lat: 41.307211, lng: -72.935839}]},
+
              ];
      
              window.onload = function () {
