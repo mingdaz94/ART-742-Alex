@@ -29,6 +29,10 @@ var centerCords = {
                   placeName: "I saw a man sat on the stair and smoked with a sad face",
                   LatLng: [{lat: 41.306658, lng: -72.931093}]
                  },
+                 {
+                  placeName: "I contemplated using my apartment stair to workout in during the pandemic (running up and down, calf raisers, etc.), but then I got worried I'd make people nervous about the virus by breathing heavily in this essential building circulation. ",
+                  LatLng: [{lat: 41.309220462550435, lng: -72.93761228893544}]
+                 },
                  {LatLng: [{lat: 41.307101, lng: -72.932023}]},
                  {LatLng: [{lat: 41.306931, lng: -72.931583}]},
                  {LatLng: [{lat: 41.306545, lng: -72.930739}]},
