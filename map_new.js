@@ -14,10 +14,6 @@ var centerCords = {
                   LatLng: [{lat: 41.308242, lng: -72.930887}]
                  },
                  {
-                  placeName: "I kissed my girlfriend on this stair",
-                  LatLng: [{lat: 41.307378, lng: -72.928732}]
-                 },
-                 {
                   placeName: "Enjoying the sunlight on this stair",
                   LatLng: [{lat: 41.308078, lng: -72.930481}]
                  },
@@ -32,7 +28,18 @@ var centerCords = {
                  {
                   placeName: "I saw a man sat on the stair and smoked with a sad face",
                   LatLng: [{lat: 41.306658, lng: -72.931093}]
-                 }
+                 },
+                 {LatLng: [{lat: 41.307101, lng: -72.932023}]},
+                 {LatLng: [{lat: 41.306931, lng: -72.931583}]},
+                 {LatLng: [{lat: 41.306545, lng: -72.930739}]},
+
+                 {LatLng: [{lat: 41.316212, lng: -72.926303}]},
+                 {LatLng: [{lat: 41.316519, lng: -72.926516}]},
+                 {LatLng: [{lat: 41.316724, lng: -72.926895}]},
+                 {LatLng: [{lat: 41.317074, lng: -72.926788}]},
+                 {LatLng: [{lat: 41.317268, lng: -72.927077}]},
+                 {LatLng: [{lat: 41.317536, lng: -72.925987}]},
+                 {LatLng: [{lat: 41.318007, lng: -72.925847}]},
              ];
      
              window.onload = function () {
