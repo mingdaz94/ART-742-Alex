@@ -26,7 +26,7 @@ var centerCords = {
                   LatLng: [{lat: 41.305399, lng:  -72.928680}]
                  },
                  {
-                  placeName: "My roomate Mark fell down on this stair on July 19 2020",
+                  placeName: "David fell down on this stair on July 19 2020",
                   LatLng: [{lat: 41.305399, lng:  -72.928680}]
                  },
                  {
