@@ -14,7 +14,7 @@ var centerCords = {
                   LatLng: [{lat: 41.308242, lng: -72.930887}]
                  },
                  {
-                  placeName: "Australia (Canberra)",
+                  placeName: "I kissed my girlfriend on this stair",
                   LatLng: [{lat: 41.307378, lng: -72.928732}]
                  },
                  {
@@ -30,7 +30,7 @@ var centerCords = {
                   LatLng: [{lat: 41.316690, lng:  -72.927227}]
                  },
                  {
-                  placeName: "I saw a man sat on stair and somked with a sad face",
+                  placeName: "I saw a man sat on the stair and smoked with a sad face",
                   LatLng: [{lat: 41.306658, lng: -72.931093}]
                  }
              ];
