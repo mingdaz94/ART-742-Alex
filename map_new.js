@@ -32,7 +32,6 @@ var centerCords = {
                  {LatLng: [{lat: 41.307101, lng: -72.932023}]},
                  {LatLng: [{lat: 41.306931, lng: -72.931583}]},
                  {LatLng: [{lat: 41.306545, lng: -72.930739}]},
-
                  {LatLng: [{lat: 41.316212, lng: -72.926303}]},
                  {LatLng: [{lat: 41.316519, lng: -72.926516}]},
                  {LatLng: [{lat: 41.316724, lng: -72.926895}]},
@@ -40,6 +39,16 @@ var centerCords = {
                  {LatLng: [{lat: 41.317268, lng: -72.927077}]},
                  {LatLng: [{lat: 41.317536, lng: -72.925987}]},
                  {LatLng: [{lat: 41.318007, lng: -72.925847}]},
+
+                 {LatLng: [{lat: 41.318085, lng: -72.926567}]},
+                 {LatLng: [{lat: 41.318322, lng: -72.925863}]},
+                 {LatLng: [{lat: 41.318217, lng: -72.927297}]},
+                 {LatLng: [{lat: 41.318643, lng: -72.925847}]},
+                 {LatLng: [{lat: 41.318720, lng: -72.926159}]},
+                 {LatLng: [{lat: 41.319227, lng: -72.927740}]},
+                 {LatLng: [{lat: 41.319563, lng: -72.926153}]},
+                 {LatLng: [{lat: 41.320401, lng: -72.926083}]},
+                 {LatLng: [{lat: 41.320607, lng: -72.928242}]},
              ];
      
              window.onload = function () {
