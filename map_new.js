@@ -43,7 +43,6 @@ var centerCords = {
                  {LatLng: [{lat: 41.317268, lng: -72.927077}]},
                  {LatLng: [{lat: 41.317536, lng: -72.925987}]},
                  {LatLng: [{lat: 41.318007, lng: -72.925847}]},
-
                  {LatLng: [{lat: 41.318085, lng: -72.926567}]},
                  {LatLng: [{lat: 41.318322, lng: -72.925863}]},
                  {LatLng: [{lat: 41.318217, lng: -72.927297}]},
@@ -53,7 +52,6 @@ var centerCords = {
                  {LatLng: [{lat: 41.319563, lng: -72.926153}]},
                  {LatLng: [{lat: 41.320401, lng: -72.926083}]},
                  {LatLng: [{lat: 41.320607, lng: -72.928242}]},
-
                  {LatLng: [{lat: 41.309365, lng: -72.936952}]},
                  {LatLng: [{lat: 41.309007, lng: -72.937151}]},
                  {LatLng: [{lat: 41.308688, lng: -72.937434}]},
