@@ -78,7 +78,7 @@ var centerCords = {
      
              function initMap() {
                  map = new google.maps.Map(document.getElementById('map'), {
-                  zoom: 7,
+                  zoom: 9,
                   center: centerCords,
                   zoomControl: false,
                   scaleControl: false,
