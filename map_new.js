@@ -26,6 +26,9 @@ var centerCords = {
 
                  {placeName: "I contemplated using my apartment stair to workout in during the pandemic (running up and down, calf raisers, etc.), but then I got worried I'd make people nervous about the virus by breathing heavily in this essential building circulation. ",
                   LatLng: [{lat: 41.309220462550435, lng: -72.93761228893544}]},
+                
+                  {placeName: "In grad school, we would have parties along four levels of a stairwell made of concrete with one glass wall that spanned the height of the building. Each level felt like a different zone and the mood of the party would change.",
+                  LatLng: [{lat: 42.375925, lng: -71.114046}]},
              ];
      
              window.onload = function () {
