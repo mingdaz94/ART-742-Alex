@@ -102,6 +102,12 @@ li {
 
 .item2 {
     align-self: start;
+    padding: 100px;
+}
+
+.item4 {
+  align-self: center;
+  padding: 100px;
 }
 
 .item3 {
