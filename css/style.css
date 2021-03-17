@@ -128,8 +128,9 @@ li {
 
 .gm-style-iw {
   border-radius: 0%  !important;
-  border: 0px solid yellow;
+  border: 0px solid yellow !important;
   background: yellow !important;
+
 }
 
 .gm-style-iw-d {
@@ -145,10 +146,11 @@ li {
   border-radius: 0%  !important;
   border: 0px solid yellow !important;
   background: transparent !important;
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 .gm-sytle-iw-t::after {
+  border: 0px solid yellow !important;
   background: yellow !important;
 }
 
