@@ -15,8 +15,8 @@ html, body {
 
 /* LINK STYLING */
 @font-face {
-  font-family: "myfont";
-  src: url("fonts/awesome-font.woff") format('woff');
+  font-family: "ChomskyRegular";
+  src: url("fonts/Chomsky.woff") format('woff');
 }
 
 a {
