@@ -14,6 +14,10 @@ html, body {
 }
 
 /* LINK STYLING */
+@font-face {
+  font-family: "myfont";
+  src: url("fonts/awesome-font.woff") format('woff');
+}
 
 a {
     text-decoration: none;
